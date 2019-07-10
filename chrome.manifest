@@ -1,0 +1,6 @@
+content thunderbird-spam-score-column             chrome/content/
+skin    thunderbird-spam-score-column classic/1.0 chrome/skin/
+
+locale  thunderbird-spam-score-column en-US       chrome/locale/en-US/
+
+overlay chrome://messenger/content/messenger.xul chrome://thunderbird-spam-score-column/content/messenger.xul

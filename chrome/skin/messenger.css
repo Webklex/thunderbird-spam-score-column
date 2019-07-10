@@ -1,0 +1,20 @@
+treecol#colSpamScore {
+    text-align: center;
+}
+treechildren::-moz-tree-cell(SpamOK) {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    background-color: green !important;
+    color: white !important;
+}
+treechildren::-moz-tree-cell(SpamAlert)
+{
+    font-weight: bold;
+    text-align: center;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    background-color: red !important;
+    color: white !important;
+}

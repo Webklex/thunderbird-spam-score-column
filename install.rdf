@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+        <em:type>2</em:type> <!-- 2 : Extension -->
+        <em:id>thunderbird-spam-score-column@webklex.com</em:id>
+        <em:version>1.0.1</em:version>
+        <em:name>X-Spam-Score Column</em:name>
+        <em:description>Adds a column for the X-Spam-Score header.</em:description>
+        <em:creator>Malte Goldenbaum | Webklex</em:creator>
+        <em:targetApplication>
+            <Description>
+                <!-- Thunderbird -->
+                <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+                <em:minVersion>2.0</em:minVersion>
+                <em:maxVersion>60.8</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+    </Description>
+</RDF>

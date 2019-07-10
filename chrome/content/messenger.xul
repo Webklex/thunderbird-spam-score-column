@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://thunderbird-spam-score-column/skin/messenger.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://thunderbird-spam-score-column/locale/messenger.dtd">
+<overlay id="colSpamScoreOverlay" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <tree id="threadTree">
+    <treecols id="threadCols">
+    <splitter class="tree-splitter" />
+    <treecol id="colSpamScore" persist="hidden ordinal width" 
+           currentView="unthreaded" flex="2"
+           label="&thunderbird-spam-score-column.column.label;"
+                     tooltiptext="&thunderbird-spam-score-column.column.tooltip;" />
+    </treecols>
+  </tree>
+  
+  <!-- include our javascript file -->
+  <script type="text/javascript" src="chrome://thunderbird-spam-score-column/content/messenger.js" />
+</overlay>
